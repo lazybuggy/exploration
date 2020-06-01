@@ -1,0 +1,57 @@
+.wrapper{
+  width: 50%;
+  height: 50%;
+  margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+    background-color: rgba(255,255,255,0.5);
+}
+
+.login{
+  background: url(https://i.pinimg.com/originals/54/bd/18/54bd18315da07a48c7190b6deae099a1.jpg);
+    height: 100vh;
+    background-size: cover;
+    justify-content: center;
+    display: flex;
+}
+
+.header{
+
+  font-size: 80px;
+  font-family: 'Scorched';
+}
+
+form{
+  display: flex;
+  flex-wrap: wrap;
+   align-content: center;
+  justify-content: center;
+  height: 100%;
+}
+
+label{
+  color: black;
+   font-family: 'Scorched';
+  font-size: 18px;
+  width: 40%;
+  /* margin-right: 10px; */
+      align-self: center;
+    padding: 15px;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+}
+
+input.text{
+      background: rgba(255,255,255,0.5);
+      border: none;
+  padding: 15px;
+  font-size: 16px;
+  margin-bottom: 30px;
+      width: 60%;
+    box-sizing: border-box;
+}
+
+.button{
+      font-size: 21px;
+    margin-right: 20px;
+}

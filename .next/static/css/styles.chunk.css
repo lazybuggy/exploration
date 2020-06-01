@@ -1,0 +1,227 @@
+.background{
+  background: black;
+  height: 450px;
+  height: 100%;
+  /* width: 450px; */
+  /* float: left; */
+  /* background: url(https://wallpapermemory.com/uploads/223/haunted-background-hd-1280x960-447035.jpg); */
+  /* background-repeat: no-repeat; */
+  /* background-size: cover; */
+  /* background-position: top; */
+}
+
+.scenarioText {
+  width: 50%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+      font-family:Populationzerobb;
+      letter-spacing: 2px;
+        background-color: rgba(255,255,255,0.2);
+        color: lightgray;
+}
+
+.scenario {
+height: 100%;
+}
+
+.scenarioText h1{
+  animation: animated-text 2s steps(50,end) 1s 1 normal both;
+}
+
+@keyframes animated-text {
+  from{width: 0; overflow: hidden; white-space: nowrap;}
+  to{width: 100%; opacity: 1; white-space: pre-wrap;}
+}
+
+.choice{
+  /* box-shadow: 0 4px 10px -7px black; */
+  padding: 10px 7px;
+  width: 100%;
+  font-family: 'Lucida Sans', Verdana, sans-serif;
+  font-size: 20px;
+  color: white;
+  background: transparent;
+  border: none;
+  transition: color 0.377s ease-in;
+}
+
+.choice:hover{
+  color: lightslategray;
+}
+
+.choicesContainer {
+  padding-top: 15%;
+  position: absolute;
+  bottom: 100px;
+  right: 50px;
+  width: 700px;
+}
+
+.example-enter {
+  opacity: 0.01;
+}
+
+.example-enter.example-enter-active {
+  opacity: 1;
+  transition: opacity 500ms ease-in;
+}
+
+.example-leave {
+  opacity: 1;
+}
+
+.example-leave.example-leave-active {
+  opacity: 0.01;
+  transition: opacity 500ms ease-in;
+  display: none;
+}
+@font-face {
+  font-family: 'Populationzerobb';
+  src: url(/_next/static/chunks/fonts/Populationzerobb-ZDXK-311cff5149d25db3a6e8a1a0991b5e3d.otf) format('opentype');
+}
+@font-face{
+  font-family: 'Scorched';
+  src: url(/_next/static/chunks/fonts/Scorchedearth-4Ljp-3a2de42b06f58a8b5402da50c0c80911.otf) format('opentype');
+}
+
+body{
+  margin: 0;
+}
+
+.fill{
+  height: 100vh;
+}
+
+.nav{
+  /* background: goldenrod; */
+  position: absolute;
+  width: 100%;
+  /* width: 40%;
+  float: right; */
+}
+
+.nav h2{
+  margin: 0 10px;
+  color: white;
+}
+
+.navContent{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav button, .nav a{
+  border: 1px solid red;
+  background: silver;
+  display: inline-block;
+  padding: 10px;
+  margin: 0;
+  font-size: 14px;
+  line-height: 18px;
+  font-family: 'Times New Roman', Times, serif;
+  font-family:Populationzerobb;
+  text-decoration: none;
+  text-align: center;
+}
+
+/* .background{
+  background: black;
+  height: 110%;
+  width: 60%;
+  float: left;
+  background: url(https://wallpapermemory.com/uploads/223/haunted-background-hd-1280x960-447035.jpg);
+  /* background-repeat: no-repeat; */
+  /* background-size: cover; */
+
+.content{
+  /* width: 40%; */
+  height: 100%;
+  /* float: right; */
+  background: black; 
+  color: whitesmoke;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  /* width: 50%;
+  height: 50%;
+  margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+  border: green 1px solid;
+  text-align: center; */
+}
+.inner{
+  padding: 50px;
+  height: 100%;
+  box-sizing: border-box;
+}
+/* .content h1{
+  overflow: hidden;
+  border-right: .15em solid goldenrod;
+  margin: 0 auto;
+  letter-spacing: .15em;
+  animation: typing 3.5s steps(40,end);
+}
+
+@keyframes typing{
+  from { width: 0;}
+  to { width: 100%}
+} */
+.wrapper{
+  width: 50%;
+  height: 50%;
+  margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+    background-color: rgba(255,255,255,0.5);
+}
+
+.login{
+  background: url(https://i.pinimg.com/originals/54/bd/18/54bd18315da07a48c7190b6deae099a1.jpg);
+    height: 100vh;
+    background-size: cover;
+    justify-content: center;
+    display: flex;
+}
+
+.header{
+
+  font-size: 80px;
+  font-family: 'Scorched';
+}
+
+form{
+  display: flex;
+  flex-wrap: wrap;
+   align-content: center;
+  justify-content: center;
+  height: 100%;
+}
+
+label{
+  color: black;
+   font-family: 'Scorched';
+  font-size: 18px;
+  width: 40%;
+  /* margin-right: 10px; */
+      align-self: center;
+    padding: 15px;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+}
+
+input.text{
+      background: rgba(255,255,255,0.5);
+      border: none;
+  padding: 15px;
+  font-size: 16px;
+  margin-bottom: 30px;
+      width: 60%;
+    box-sizing: border-box;
+}
+
+.button{
+      font-size: 21px;
+    margin-right: 20px;
+}
+
+/*# sourceMappingURL=styles.chunk.css.map*/

@@ -1,0 +1,7 @@
+.signup{
+  background: url(https://images7.alphacoders.com/338/338459.jpg);
+      height: 100vh;
+    background-size: cover;
+    justify-content: center;
+    display: flex;
+}

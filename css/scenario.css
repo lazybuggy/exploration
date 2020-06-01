@@ -1,0 +1,35 @@
+.background{
+  background: black;
+  height: 450px;
+  height: 100%;
+  /* width: 450px; */
+  /* float: left; */
+  /* background: url(https://wallpapermemory.com/uploads/223/haunted-background-hd-1280x960-447035.jpg); */
+  /* background-repeat: no-repeat; */
+  /* background-size: cover; */
+  /* background-position: top; */
+}
+
+.scenarioText {
+  width: 50%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+      font-family:Populationzerobb;
+      letter-spacing: 2px;
+        background-color: rgba(255,255,255,0.2);
+        color: lightgray;
+}
+
+.scenario {
+height: 100%;
+}
+
+.scenarioText h1{
+  animation: animated-text 2s steps(50,end) 1s 1 normal both;
+}
+
+@keyframes animated-text {
+  from{width: 0; overflow: hidden; white-space: nowrap;}
+  to{width: 100%; opacity: 1; white-space: pre-wrap;}
+}
